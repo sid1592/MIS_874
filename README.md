@@ -1,0 +1,2 @@
+# MIS_874
+This project deals with the Tableau software where the excel files are uploaded and analysis is done using bar graphs, lines, world maps. The data which is curently available is based on financial assistance provided by US government to the rese of the world based on economic and military assistance. The data is available from 1944 till 2017. But I think we should also go through some other online sources which would give us more clear understanding how to move further with the project.
