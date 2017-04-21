@@ -1,0 +1,1352 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10200.17.0328.0755                               -->
+<workbook source-build='10.2.1 (10200.17.0328.0755)' source-platform='win' version='10.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='us_foreign_assistance' inline='true' name='federated.13sa62p0fbhxi01gvu6ex1ulky8r' version='10.2'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='us_foreign_assistance' name='excel-direct.1l1rn8m1rfixnj199ye3k1hwz6u5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Guest/Downloads/us_foreign_assistance.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1l1rn8m1rfixnj199ye3k1hwz6u5' name='Economic Constant !' table='[&apos;Economic Constant $$&apos;]' type='table'>
+          <columns gridOrigin='A1:BP2460:no:A1:BP2460:0' header='no' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='F19' ordinal='18' />
+            <column datatype='string' name='F20' ordinal='19' />
+            <column datatype='string' name='F21' ordinal='20' />
+            <column datatype='string' name='F22' ordinal='21' />
+            <column datatype='string' name='F23' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='string' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='F27' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='F29' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+            <column datatype='string' name='F32' ordinal='31' />
+            <column datatype='string' name='F33' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='string' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+            <column datatype='string' name='F37' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+            <column datatype='string' name='F39' ordinal='38' />
+            <column datatype='string' name='F40' ordinal='39' />
+            <column datatype='string' name='F41' ordinal='40' />
+            <column datatype='string' name='F42' ordinal='41' />
+            <column datatype='string' name='F43' ordinal='42' />
+            <column datatype='string' name='F44' ordinal='43' />
+            <column datatype='string' name='F45' ordinal='44' />
+            <column datatype='string' name='F46' ordinal='45' />
+            <column datatype='string' name='F47' ordinal='46' />
+            <column datatype='string' name='F48' ordinal='47' />
+            <column datatype='string' name='F49' ordinal='48' />
+            <column datatype='string' name='F50' ordinal='49' />
+            <column datatype='string' name='F51' ordinal='50' />
+            <column datatype='string' name='F52' ordinal='51' />
+            <column datatype='string' name='F53' ordinal='52' />
+            <column datatype='string' name='F54' ordinal='53' />
+            <column datatype='string' name='F55' ordinal='54' />
+            <column datatype='string' name='F56' ordinal='55' />
+            <column datatype='string' name='F57' ordinal='56' />
+            <column datatype='string' name='F58' ordinal='57' />
+            <column datatype='string' name='F59' ordinal='58' />
+            <column datatype='string' name='F60' ordinal='59' />
+            <column datatype='string' name='F61' ordinal='60' />
+            <column datatype='string' name='F62' ordinal='61' />
+            <column datatype='string' name='F63' ordinal='62' />
+            <column datatype='string' name='F64' ordinal='63' />
+            <column datatype='string' name='F65' ordinal='64' />
+            <column datatype='string' name='F66' ordinal='65' />
+            <column datatype='string' name='F67' ordinal='66' />
+            <column datatype='string' name='F68' ordinal='67' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F37</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F37]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F37</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F38</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F38]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F38</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F39</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F39]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F39</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F40</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F40]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F40</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F41</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F41]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F41</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F42</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F42]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F42</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F43</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F43]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F43</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F44</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F44]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F44</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F45</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F45]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F45</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F46</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F46]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F46</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F47</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F47]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F47</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F48</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F48]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F48</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F49</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F49]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F49</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F50</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F50]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F50</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F51</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F51]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F51</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F52</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F52]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F52</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F53</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F53]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F53</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F54</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F54]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F54</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F55</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F55]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F55</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F56</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F56]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F56</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F57</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F57]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F57</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F58</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F58]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F58</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F59]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F59</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F60</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F60]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F60</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F61</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F61]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F61</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F62</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F62]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F62</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F63</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F63]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F63</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F64</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F64]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F64</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F65</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F65]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F65</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F66</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F66]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F66</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F67</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F67]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F67</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F68</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F68]</local-name>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias>F68</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Economic Constant !]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BP2460:no:A1:BP2460:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.69863' measure-ordering='alphabetic' measure-percentage='0.30137' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='us_foreign_assistance' name='federated.13sa62p0fbhxi01gvu6ex1ulky8r' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13sa62p0fbhxi01gvu6ex1ulky8r'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F68]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F68]' derivation='None' name='[none:F68:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>(([federated.13sa62p0fbhxi01gvu6ex1ulky8r].[none:F68:nk] / [federated.13sa62p0fbhxi01gvu6ex1ulky8r].[none:F1:nk]) * [federated.13sa62p0fbhxi01gvu6ex1ulky8r].[Multiple Values])</rows>
+        <cols>[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[sum:Number of Records:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[:Measure Names]</field>
+            <field>[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[none:F1:nk]</field>
+            <field>[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[none:F68:nk]</field>
+            <field>[federated.13sa62p0fbhxi01gvu6ex1ulky8r].[none:F9 (Economic Historical !):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      Twnp9/8BdHwoGHkKJH0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
